@@ -20,7 +20,6 @@ const assertArraysEqual = function(expected, actual) {
   console.log(`🛑 Assertion Failed: ${expected} !== ${actual}`);
   return;
 };
-  
 
 
 const takeUntil = function(array, callback) {
