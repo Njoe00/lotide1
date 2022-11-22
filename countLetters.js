@@ -20,3 +20,5 @@ const countLetters = function(string) {
 
 
 assertEqual(countLetters("LHL").L,2);
+
+module.exports = countLetters;

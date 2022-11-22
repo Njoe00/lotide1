@@ -44,3 +44,5 @@ assertArraysEqual(results3, [true, true, false, true, false]);
 const results4 = map(words, word => (word.length > 4));
 console.log(results4);
 assertArraysEqual(results4, [ true, true, false, true, false ]);
+
+module.exports = map;
